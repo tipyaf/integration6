@@ -1,0 +1,100 @@
+/*
+   GENERAL
+========================================================================== */
+body{
+  background-color: #202020;
+}
+#page{
+  max-width: 1200px;
+  margin: 0 auto;
+  display:flex;
+  background-color: white;
+}
+.blue{
+  height: 10px;
+  background-color: #2980B9;
+}
+h1, h2, h3, p, a , li{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+  font-size: 33px;
+  }
+h3, h2{
+  font-size: 15px;
+}
+
+
+
+
+
+/* ==========================================================================
+   NAVIGATION
+   ========================================================================== */
+nav{
+  width: 20%;
+  background-color: #202020;
+  opacity: 0.7;
+}
+nav a{
+  color: white;
+
+}
+nav li{
+  padding: 20px;
+}
+nav ul{
+  list-style-type: none;
+}
+nav img{
+  border-radius: 50%;
+}
+
+/* ==========================================================================
+   BODY-CONTENT(Corps hors nav)
+   ========================================================================== */
+#body-content{
+  width: 80%;
+}
+
+/*
+               title-head
+   ========================================================================== */
+.title-head{
+  text-align: center;
+}
+
+
+
+/*
+                 section
+   ========================================================================== */
+section, #body-content{
+  width: 85%;
+  border-bottom: 1px solid #EBEBEB;
+  margin: 0 auto;
+}
+
+/*
+                 Title head
+   ========================================================================== */
+
+
+
+/*
+                 grid/case
+   ========================================================================== */
+   .grid{
+     width: 100%;
+     display: inline-flex;
+     justify-content: space-around;
+     border-bottom: 1px solid #EBEBEB;
+   }
+   .date{
+     width: 5%;
+     border-right: 1px solid #EBEBEB;
+
+   }
+   .parag{
+     width: 95%;
+   }
